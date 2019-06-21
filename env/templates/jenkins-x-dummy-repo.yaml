@@ -1,0 +1,11 @@
+metadata:
+  creationTimestamp: null
+  name: jenkins-x-dummy
+spec:
+  org: jenkins-x
+  provider: https://github.com
+  providerName: github
+  repo: dummy
+  scheduler:
+    kind: Scheduler
+    name: jenkins-x-dummy-scheduler
