@@ -1,0 +1,13 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  name: daveconde-environment-jx-staging
+spec:
+  org: daveconde
+  provider: https://github.com
+  providerName: github
+  repo: environment-jx-staging
+  scheduler:
+    kind: Scheduler
+    name: daveconde-environment-jx-staging-scheduler
