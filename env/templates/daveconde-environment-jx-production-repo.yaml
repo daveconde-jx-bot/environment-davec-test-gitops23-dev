@@ -1,0 +1,12 @@
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  name: daveconde-environment-jx-production
+spec:
+  org: daveconde
+  provider: https://github.com
+  providerName: github
+  repo: environment-jx-production
+  scheduler:
+    kind: Scheduler
+    name: daveconde-environment-jx-production-scheduler
